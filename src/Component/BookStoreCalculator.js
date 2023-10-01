@@ -17,7 +17,7 @@ class BookStoreCalculator extends Component {
     };
 
     handleCalculatePrice = () => {
-        fetch('http://localhost/Calculate_book_pricing/api/Bookstore/calculatePrice', {
+        fetch('https://shivangirajput123.github.io/Calculate_book_pricing/api/Bookstore/calculatePrice', {
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json',
